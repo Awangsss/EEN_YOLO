@@ -1,0 +1,9 @@
+
+train: /home/xie/wns/paper/data/images/train
+# train images (relative to 'path') 3422 images
+val: /home/xie/wns/paper/data/images/val
+# val images (relative to 'path') 748 images (WARNING: train set contains ethz_1)
+nc: 4
+#test: # test images (optional) 1276 images
+# Classes
+names: ['holothurian','echinus','scallop','starfish']
